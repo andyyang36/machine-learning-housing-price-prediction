@@ -1,8 +1,16 @@
 CC = gcc
 CFLAGS = -g -std=c99 -Wall -Wvla -Werror -fsanitize=address,undefined
 
-estimate: estimate.c
-	$(CC) $(CFLAGS) -o $@ $^
+OBJS = estimate.o matrix_functions.o
+
+estimate: $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $(OBJS)
+
+estimate.o: estimate.c matrix_functions.h
+	$(CC) $(CFLAGS) -c estimate.c
+
+matrix_functions.o: matrix_functions.c matrix_functions.h
+	$(CC) $(CFLAGS) -c matrix_functions.c
 
 clean:
-	rm -rf estimate *.o *.dSYM
+	rm -rf estimate $(OBJS) *.dSYM
