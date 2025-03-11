@@ -7,7 +7,7 @@ estimate: $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS)
 
 estimate.o: estimate.c matrix_functions.h
-	$(CC) $(CFLAGS) -c estimate.c
+	$(CC) $(CFLAGS) -c main.c
 
 matrix_functions.o: matrix_functions.c matrix_functions.h
 	$(CC) $(CFLAGS) -c matrix_functions.c
