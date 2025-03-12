@@ -17,13 +17,16 @@ Training File (Train.txt):
 <img width="144" alt="image" src="https://github.com/user-attachments/assets/a99fb309-93de-4518-99b9-429a987a7832" />
 
 Prediction Data:
+
 <img width="199" alt="image" src="https://github.com/user-attachments/assets/a9e67bdc-a9f6-4319-acb5-6e39ba86caaf" />
 
 
 Prediction File:
+
 <img width="77" alt="image" src="https://github.com/user-attachments/assets/eac96f06-f2ff-4788-aaf8-78c3a5d1c6fe" />
 
 Program Prediction:
+
 <img width="644" alt="image" src="https://github.com/user-attachments/assets/f5bb6c1f-d6f5-4be8-a02f-0152f06a8bd9" />
 
 
