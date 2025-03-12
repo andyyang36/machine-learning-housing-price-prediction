@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "matrix.h"
+#include "matrix_functions.h"
 
 double** allocate_space_for_a_matrix(int rows, int cols) {
     double** created_matrix = malloc(sizeof(double*) * rows);
