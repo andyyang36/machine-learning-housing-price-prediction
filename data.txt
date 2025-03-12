@@ -1,0 +1,5 @@
+data
+2 2
+1600 3
+2200 4
+//SAMPLE DATA.TXT
